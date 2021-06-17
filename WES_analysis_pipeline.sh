@@ -1,5 +1,11 @@
 # WES ANALYSIS
 # --------------------------------
+
+export SNPEFF=/coursedata/src/snpEff_v4.1h/snpEff.jar
+export SNPSIFT=/coursedata/src/snpEff_v4.1h/SnpSift.jar
+export PICARD=/coursedata/src/picard.jar
+export GATK=/coursedata/src/GenomeAnalysisTK.jar
+
 # Map to reference genome
 bwa mem Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta datafiles/na12878_wes_brcagenes-1.fastq datafiles/na12878_wes_brcagenes-2.fastq > na12878_wes.sam
 
